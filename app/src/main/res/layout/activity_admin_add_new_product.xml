@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AdminAddNewProductActivity">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/select_product_imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/select_product_image" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_product_imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/enter_the_product_name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColorHint="@color/white"
+        android:autofillHints="" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/enter_the_product_description"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/enter_the_product_price"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/add_productBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_price"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="@color/primary"
+        android:text="@string/add_product"
+        android:textColor="@color/white" />
+</RelativeLayout>

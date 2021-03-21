@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WebShop</string>
+    <string name="choose_discover_and_buy">Choose, Discover and Buy!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone_number">Phone number..</string>
+    <string name="enter_password">Enter password</string>
+    <string name="remember_me">Remember me?</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login">Login</string>
+    <string name="are_you_an_admin">Are you an Admin?</string>
+    <string name="no_admin">Not admin?</string>
+    <string name="username">Username</string>
+    <string name="admin">Admin?</string>
+    <string name="logout">Logout</string>
+    <string name="admin_login">Login Admin</string>
+    <string name="add_new_product">Add new Product</string>
+    <string name="enter_the_product_name">Enter the product name…</string>
+    <string name="enter_the_product_price">Enter the product price…</string>
+    <string name="enter_the_product_description">Enter the product description…</string>
+    <string name="add_product">Add product</string>
+</resources>
